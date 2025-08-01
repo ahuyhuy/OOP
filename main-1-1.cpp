@@ -8,4 +8,5 @@ int main() {
     int n = 5;
     int sum = array_sum(array, n);
     cout << "sum is " << sum << endl;
+    return 0;
 }
