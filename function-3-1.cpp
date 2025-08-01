@@ -1,9 +1,13 @@
 #include <iostream>
 
 bool is_fanarray(int array[], int n) {
-    int l_half = n / 2;
-    bool result = true;
-    for (int i = 0; i < l_half; i++) {
-        
+    if (n < 1) {
+        return false;
     }
+    for (int i = 0; i < n / 2; i++) {
+        if (array[i] != array[n-i-1]) {
+            return false;
+        }
+    }
+    return true;
 }
