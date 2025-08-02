@@ -14,6 +14,6 @@ double weighted_average(int array[], int n) {
         }
         weighted_sum += array[i] * weight;
     }
-    double result = weighted_sum / n;
+    double result = static_cast<double>(weighted_sum) / n;
     return result;
 }
