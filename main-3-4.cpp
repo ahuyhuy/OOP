@@ -10,4 +10,5 @@ int main() {
     print_pass_fail(grade1);
     print_pass_fail(grade2);
     print_pass_fail(grade3);
+    return 0;
 }
