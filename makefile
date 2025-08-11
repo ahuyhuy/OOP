@@ -1,10 +1,10 @@
-main:	changeValue.cpp printArray.cpp arrayMax.cpp dynamicArray.cpp main.cpp
-			g++ changeValue.cpp printArray.cpp arrayMax.cpp dynamicArray.cpp main.cpp -o all
-			./all
+main:	main.cpp
+		g++ main.cpp -o main
+		./main
 
 .PHONY: main
 
-pt1:	pt1.cpp
+pt1: pt1.cpp
 	g++ pt1.cpp -o pt1
 	./pt1
 

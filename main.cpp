@@ -1,11 +1,8 @@
 #include <iostream>
 #include <memory>
+#include "workshop.h"
 using namespace std;
 
-extern void changeValue(double* val);
-extern void printArray(double *array, int n);
-extern double arrayMax(double *array, int n);
-extern double *dynamicArray(int N, double M);
 
 int main() {
     double x = 41.99;
